@@ -26,5 +26,4 @@ instance = client.create_instances(
     InstanceType=INSTANCE_TYPE
 )
 print("Instance launched")
-print("Instance Launch Time")
-print(instance[0].launch_time)
+print("Instance Launch Time : %s"%(instance[0].launch_time))
